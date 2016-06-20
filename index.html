@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Header Parse Microservice</title>
+    <link rel="stylesheet" href="/public/main.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+   <div class='container-fulid xMarg'>
+        <h1>API : Header Parse Microservice</h1>
+        <p>This is a basic API that tells you Three details about user.</p>
+        <ul>
+            <li>IP Address</li>
+            <li>Language</li>
+            <li>Software</li>
+        </ul>
+        <h3>Example : </h3>
+       <span><em>Request to : </em></span><code>127.0.0.1:3000/api</code><br>
+        <p>Returns a JSON object as such :</p>
+        <blockquote>
+            {<br> <div class='xMarg'>
+                'ipaddress' : '117.21.55.43' , <br>
+                'lang' : 'en-US', <br>
+                'software' : 'x11; Linux X84_64' <br>
+              </div>
+            }
+        </blockquote>
+        <div><b>NOTE : </b>If failed to determine IP address then IP of local host will be returned i.e 127.0.0.1</div>
+    </div>
+</body>
+</html>
