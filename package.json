@@ -9,8 +9,8 @@
   },
   "dependencies" : {
       "express" : "^4.14.0"
-  }
-  "repository": {
+  },
+  "repository" : {
     "type": "git",
     "url": "git+https://github.com/priyansh1161/header-parse-API.git"
   },
